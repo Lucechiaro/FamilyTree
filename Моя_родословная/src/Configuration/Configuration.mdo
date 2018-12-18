@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="798ec884-64eb-4704-90e8-4007c0632357">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="403fc42b-0d55-49f2-965f-7866dd399eb6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8c9294d7-ed19-4762-b99d-38109598d36b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4959968f-7c4a-4251-9d54-df0b9c001c9a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1208e386-4f2c-47b4-abac-86525b7cda59"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="073fa71f-e840-4491-8080-9078f942b3aa"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="83e7f9de-3dc4-41c6-a5e0-c2aa9111956c"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
+  <languages uuid="a54bbe6e-4e29-4048-9511-6c43bb24ae70">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <constants>Constant.ПутьККаталогуСФотографиями</constants>
+  <catalogs>Catalog.Персоны</catalogs>
+  <catalogs>Catalog.ТипыРодства</catalogs>
+  <catalogs>Catalog.Семьи</catalogs>
+  <catalogs>Catalog.ВидыАдминистративногоДеления</catalogs>
+  <catalogs>Catalog.АдминистративноеДеление</catalogs>
+  <catalogs>Catalog.Фотографии</catalogs>
+  <enums>Enum.ТочностьДаты</enums>
+  <enums>Enum.ТипМестПребывания</enums>
+  <informationRegisters>InformationRegister.ИсторияИзмененияФамилийПерсон</informationRegisters>
+</mdclass:Configuration>

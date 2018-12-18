@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0939eb4d-ba6a-468f-8121-16cf7e43201a">
+  <producedTypes>
+    <objectType typeId="1af304e0-62a3-4c40-8c38-f52136bc5366" valueTypeId="31111414-96bf-4971-9e14-314448ca6d73"/>
+    <refType typeId="4d3e52b8-25ea-4b5a-bd65-c7ea01bcc4b4" valueTypeId="b40af03a-ba67-46ce-babb-2d023f93a947"/>
+    <selectionType typeId="70c5988c-5c56-498c-9b91-d9334d3f4904" valueTypeId="4a1b118c-0830-4081-a895-9231ab8de4ad"/>
+    <listType typeId="db9d1c02-1859-4250-a485-ea56cb7eb7e5" valueTypeId="acd7d785-09e5-4e44-a227-02131dc6a1ec"/>
+    <managerType typeId="c7062ad1-ed95-44a5-b8c3-45a62695879a" valueTypeId="10482efa-eec4-42a1-a744-53e163a16715"/>
+  </producedTypes>
+  <name>Семьи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семьи</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Семьи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Семьи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b3cf3a1-499d-4044-af50-c853d5686720">
+  <producedTypes>
+    <selectionType typeId="4a8e9ee2-2a46-43a9-88bd-ebf9029de3d1" valueTypeId="9561fe54-18fb-42ac-8953-fefb28c917b6"/>
+    <listType typeId="b160db7d-73a5-4e4a-8a33-fc8646caa66f" valueTypeId="29756c2b-86f6-42a5-9a08-a43ea1cb03c4"/>
+    <managerType typeId="c20af9c8-1851-4d35-9834-6f6f15bf4682" valueTypeId="42f3b648-93b2-4220-b53b-8e3459479c59"/>
+    <recordSetType typeId="83467be4-1369-46eb-9a03-284402b7cd5d" valueTypeId="e119cbc6-946e-43f1-85d6-c3e56523da50"/>
+    <recordKeyType typeId="9daf7dba-715c-4678-9707-e56a651aaabf" valueTypeId="8e6ceff7-9d9a-43ea-853b-f779219a9e4c"/>
+    <recordType typeId="e1e1e0bd-83ee-42e4-b006-516cbeaa4d05" valueTypeId="ef33f1c1-19ef-4ffd-9306-1c98cf23cf7d"/>
+    <recordManagerType typeId="5af51687-ebe7-458e-b9df-5049a67308e5" valueTypeId="353b4ae9-8770-4f59-9ec2-5de409630c3a"/>
+  </producedTypes>
+  <name>ИсторияИзмененияФамилийПерсон</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения фамилий персон</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="edb7a3db-1cd6-4623-aadd-697552911fd3">
+    <name>Фамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2a25b871-57b4-46c6-a45f-8197837a0a2c">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="10543992-ad3b-475f-b1f6-d2e134343926">
+    <name>Отчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="fe29ead5-785a-403d-b3d3-bb390d1d31e0">
+    <name>Персона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персона</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Персоны</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

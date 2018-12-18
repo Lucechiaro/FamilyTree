@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="246752f7-1334-4b13-b025-0f9239b40f74">
+  <producedTypes>
+    <refType typeId="671b4ce8-d645-4c72-b1db-3a597636881e" valueTypeId="a75a5d0d-84f2-47e9-9132-20a58fe3c9f3"/>
+    <listType typeId="da148b3f-47c4-468a-b60a-481b94fef7bc" valueTypeId="39a5d574-51e8-4a67-8a3b-10082b8c746a"/>
+    <managerType typeId="8e682923-c817-4f5e-83af-e9a97ae65f5f" valueTypeId="a09186d3-1959-48ce-9995-dda141f30d6b"/>
+  </producedTypes>
+  <name>ТочностьДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точность даты</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1164dd22-f697-4ac9-8f14-6c85007f3ca1">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cfa7a26c-47da-4a30-ac16-9b268cbe7ec8">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cd5299c7-75d3-4df8-a1f0-08739938d7c2">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b5f5c730-8d66-4f78-a0e1-60d3d66acedb">
+    <name>Десятилетие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Десятилетие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

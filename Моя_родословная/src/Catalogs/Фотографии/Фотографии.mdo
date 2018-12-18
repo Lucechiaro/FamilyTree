@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebe04ac-a2bd-46aa-8e4d-2772f62a8826">
+  <producedTypes>
+    <objectType typeId="99eac962-41cc-4fd1-a0e4-a1ac9c07ca03" valueTypeId="dffa4c6f-38ff-4501-be70-eaa5281e0ba0"/>
+    <refType typeId="2b57edda-fa4b-47e9-a17d-0db913c5d315" valueTypeId="bf52ad44-aee6-40ed-98a7-2d4a6abc80c3"/>
+    <selectionType typeId="2626ffa8-eb26-4621-82ae-6cf16b2684ce" valueTypeId="1f90a810-54ac-49af-b729-d550de5de582"/>
+    <listType typeId="af622330-94ad-418a-859c-80891834ab18" valueTypeId="19f6563d-113d-4bcf-8b83-86f4617f4f9d"/>
+    <managerType typeId="82e69a4b-6894-4bc1-82c4-799677b7f368" valueTypeId="1494878c-5ccc-408a-a796-d767d80406e1"/>
+  </producedTypes>
+  <name>Фотографии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотографии</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Фотографии.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="bfe88407-81fb-4c87-bc0d-190b5df2ec26">
+    <name>ДатаФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата фото</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08cdf764-6355-4c33-a295-ba819c1303e7">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d5518ea-9979-4096-80ae-1b28a3d4adad">
+    <name>ФотоОборотнойСтороны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото оборотной стороны</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Фотографии</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d0bde30-7543-4c83-9e40-4ec24e47afe3">
+    <name>Место</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.АдминистративноеДеление</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f05d2981-c95f-4048-9070-0ee074d846fd">
+    <producedTypes>
+      <objectType typeId="f411bf75-14e4-4ea6-8a7f-93fdfbd3d4b8" valueTypeId="420967be-b2c3-46bd-a079-7c70a8345ea7"/>
+      <rowType typeId="cb9074f2-e2cb-4c15-a179-41fa91cc5a10" valueTypeId="7972608e-d331-4ee5-80d8-a9e84bc1f7b3"/>
+    </producedTypes>
+    <name>Персоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Персоны</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="ce327e7c-9251-4f3e-b28e-028cd349d964">
+      <name>Персона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Персона</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Персоны</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f1c83e6a-9f2b-460a-998b-c5b3dbcd4f12">
+    <producedTypes>
+      <objectType typeId="53067c72-f70b-4235-b7ad-ffc9a9a039c6" valueTypeId="f0aa3d8c-460f-468c-bc9d-0957c3fc60d1"/>
+      <rowType typeId="67622a4f-ee93-404e-8cd2-80b9376c21c5" valueTypeId="990283fc-9f00-4f4c-8479-d634525c205e"/>
+    </producedTypes>
+    <name>Семьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семьи</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="b3a60cf0-7be1-416e-84f0-0849ff07c23d">
+      <name>Семья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Семья</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c063c7ff-6143-4718-a88e-87f1504a1b0c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="048a7828-e29b-49e0-8ff2-915a2d7280b0">
+  <producedTypes>
+    <objectType typeId="5cc402f6-1ce8-4074-8232-159232ecff77" valueTypeId="cb68e436-245c-450e-977b-539ddf84f093"/>
+    <refType typeId="01758398-7faf-430b-a0b4-7a1b1442191e" valueTypeId="4a166aad-3917-4e69-97c9-5d236f4ce7ae"/>
+    <selectionType typeId="ea919bbd-9b21-4780-9717-1918f2913cd2" valueTypeId="fbc81a6d-f5f3-4a61-81d8-7be89f625abe"/>
+    <listType typeId="4244be73-e5a9-4744-926b-f26c3b6dc687" valueTypeId="eba42ba1-081a-4255-92bf-afb110b16af8"/>
+    <managerType typeId="0c6d1eba-5a63-454e-a862-c2443813eedf" valueTypeId="0ce76dac-4848-4ae6-8d27-b75f3ed2f6fe"/>
+  </producedTypes>
+  <name>ВидыАдминистративногоДеления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды административного деления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАдминистративногоДеления.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыАдминистративногоДеления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>75</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

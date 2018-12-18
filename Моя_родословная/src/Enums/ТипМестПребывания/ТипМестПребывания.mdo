@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c0ee2f4-2003-470f-9b84-0a77e5975f28">
+  <producedTypes>
+    <refType typeId="0d2a09b4-7af0-497b-9336-04118f7e1e62" valueTypeId="fe832255-9343-4375-a78c-176be23f8656"/>
+    <listType typeId="969a72b2-b516-4280-ab5c-ae92b9449c13" valueTypeId="3d02c84a-fbfd-476c-afff-d702e1b223eb"/>
+    <managerType typeId="bb4bbd12-028c-429c-9b4b-aceb3cfb4f6a" valueTypeId="2dfd54c3-2842-4def-8a8b-ff68fa793996"/>
+  </producedTypes>
+  <name>ТипМестПребывания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип мест пребывания</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="39f9c351-d847-4295-9169-6fe09de2a4d3">
+    <name>МестоРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место рождения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6aa37a3b-da0a-499e-83ce-b415dd1e9953">
+    <name>МестоСмерти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место смерти</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="651c98aa-b610-4728-b5e2-947fedee5ed6">
+    <name>МестоПребывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место пребывания</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbfaa8e1-f321-4967-ba81-dcf2772ec653">
+  <producedTypes>
+    <objectType typeId="e548a9dc-91a8-4bf8-baa4-027b474c39a1" valueTypeId="e9b8eeed-51a7-427e-8b89-d34c437e6426"/>
+    <refType typeId="b6e4e7bf-2c6b-4abf-9018-281f48b328b8" valueTypeId="aae1f377-3355-4070-b103-bf568533ce2c"/>
+    <selectionType typeId="0d50197c-6173-4f4a-b93d-ee549899825c" valueTypeId="386f2772-a167-4ef3-8ece-98798419d709"/>
+    <listType typeId="cdea66be-66c6-451a-908a-ff7c1a6aeb49" valueTypeId="c5206a58-7e58-49d5-9610-4d2c3268991e"/>
+    <managerType typeId="d2d9a0f6-7083-45f6-9e39-580cb6e686b4" valueTypeId="e19da224-83ce-4f6f-86c5-eb9f8913999f"/>
+  </producedTypes>
+  <name>ТипыРодства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы родства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыРодства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="286be624-28a9-4a63-8ed3-5c36e5fb3dd6">
+    <name>РодительПотомок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель потомок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
