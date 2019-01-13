@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="798ec884-64eb-4704-90e8-4007c0632357">
-  <name>Конфигурация</name>
+  <name>МояРодословная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моя родословная</value>
+  </synonym>
   <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="403fc42b-0d55-49f2-965f-7866dd399eb6"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8c9294d7-ed19-4762-b99d-38109598d36b"/>

@@ -46,6 +46,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>PictureField</type>
+        <groupHorizontalAlign>Right</groupHorizontalAlign>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -55,9 +56,10 @@
             <event>Click</event>
             <name>АдресФотографииНажатие</name>
           </handlers>
+          <width>22</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>8</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <pictureSize>Proportionally</pictureSize>
           <zoomable>true</zoomable>
@@ -2309,10 +2311,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
