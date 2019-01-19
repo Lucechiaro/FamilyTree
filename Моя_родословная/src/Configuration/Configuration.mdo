@@ -35,6 +35,7 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <definedTypes>DefinedType.ТегиФотографий</definedTypes>
   <constants>Constant.ПутьККаталогуСФотографиями</constants>
   <catalogs>Catalog.Персоны</catalogs>
   <catalogs>Catalog.ТипыРодства</catalogs>
@@ -45,4 +46,5 @@
   <enums>Enum.ТочностьДаты</enums>
   <enums>Enum.ТипМестПребывания</enums>
   <informationRegisters>InformationRegister.ИсторияИзмененияФамилийПерсон</informationRegisters>
+  <informationRegisters>InformationRegister.ТегиФотографий</informationRegisters>
 </mdclass:Configuration>
