@@ -37,6 +37,7 @@
   </languages>
   <definedTypes>DefinedType.ТегиФотографий</definedTypes>
   <constants>Constant.ПутьККаталогуСФотографиями</constants>
+  <commonForms>CommonForm.ПросмотрФотографий</commonForms>
   <catalogs>Catalog.Персоны</catalogs>
   <catalogs>Catalog.ТипыРодства</catalogs>
   <catalogs>Catalog.Семьи</catalogs>
