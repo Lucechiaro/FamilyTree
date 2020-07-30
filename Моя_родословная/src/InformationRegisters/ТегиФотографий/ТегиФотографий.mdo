@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a52b242-928c-4206-8b44-56354017b457">
+  <producedTypes>
+    <selectionType typeId="a971de21-0034-480a-aef4-aa08807bfc55" valueTypeId="2040e9b5-3469-467b-9b3c-63c05d790dc9"/>
+    <listType typeId="f8fa5380-9b23-4f88-b50d-fe8991933864" valueTypeId="af12775c-0b02-49de-89cf-c2d761a12400"/>
+    <managerType typeId="112e29a4-c089-4382-ac1a-f6326e3619e3" valueTypeId="6910dbdb-aac8-4b0d-9245-4e3e7f550d84"/>
+    <recordSetType typeId="564ef4d5-7b18-44a4-a265-9329663f331c" valueTypeId="4df5bfc7-059e-43a3-a445-0e7de365d94e"/>
+    <recordKeyType typeId="e1090c5b-b33e-4b9a-acf2-d29aee757683" valueTypeId="75665af7-21c6-41eb-8bf5-957e0132eef5"/>
+    <recordType typeId="28c8e126-a355-4fcd-97f5-ac78345f15fc" valueTypeId="e31e8d98-6479-4423-bb3a-6041004dc51d"/>
+    <recordManagerType typeId="b74eabbe-348a-4798-a6fd-1869624dafe3" valueTypeId="08f43c98-b65f-4a85-a937-ff979b02f620"/>
+  </producedTypes>
+  <name>ТегиФотографий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги фотографий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="9b71b917-5ce5-4278-a3ca-1f2eec258211">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фотографии</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ef6e7b72-e031-4fa2-ae6d-c92573f11df4">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТегиФотографий</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

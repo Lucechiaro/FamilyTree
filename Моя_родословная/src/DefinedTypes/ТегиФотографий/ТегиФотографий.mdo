@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67bfa124-c1b0-4490-acc4-6c797ddef3bc">
+  <producedTypes>
+    <containerType typeId="b63379fe-bc1e-4ba4-9270-7c13c7f00098" valueTypeId="d57ea1fa-70f7-4f34-b6c3-17fd0c515caa"/>
+  </producedTypes>
+  <name>ТегиФотографий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги фотографий</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <types>CatalogRef.Персоны</types>
+    <types>CatalogRef.Семьи</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>
